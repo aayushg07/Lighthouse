@@ -207,81 +207,31 @@ i:hover {
 }
 
 /* Footer starts */
-
-.container {
-  display: flex;
-  justify-content: center;
-  margin-top: 0;
-}
-.f-left {
-  align-items: center;
-  width: 50%;
-  padding: 0 20px 0 20px;
-}
-.f-lheading {
-  font-size: 40px;
-  color: grey;
-}
-.f-left-txt {
-  color: black;
-}
-.f-right {
-  padding: 0 20px 0 20px;
-  display: grid;
-  justify-content: center;
-}
-.f-right h2{
-  display: grid;
-  justify-content: center;
-}
-/* Style for the container */
-.subscribe-container {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  max-width: 300px; /* Adjust the width as needed */
-  margin: 0 auto;
-}
-
-/* Style for the email input */
-.email-input {
-  flex: 1; /* Takes up remaining space in the container */
-  padding: 10px;
-  border: 1px solid #000000;
-  border-radius: 5px 0 0 5px;
-  font-size: 16px;
-  outline: none;
-}
-
-/* Style for the subscribe button */
-.subscribe-button {
-  background-color: #000000;
+.footer {
+  background-color: #000;
   color: #ffffff;
-  border: 1px solid black;
-  border-radius: 0 5px 5px 0;
-  padding: 10px 20px;
-  font-size: 16px;
-  cursor: pointer;
+  text-align: center;
+  padding: 50px 20px 10px 20px;
+  position: relative;
 }
 
-/* Hover effect for the button */
-.subscribe-button:hover {
-  background-color: #7c7878;
-color:white;
+.footer a {
+  color: #fff;
+  text-decoration: none;
 }
-.f-bottom {
-  width: 100%;
-  display: grid;
-  justify-content: center;
+
+.footer a:hover {
+  text-decoration: underline;
 }
-.foot-txt {
-  font-size: 16px;
-  font-weight: bold;
-  font-style: italic;
-  margin: 10px 0 0 0;
-  color: rgb(0, 0, 0);
+
+.footer p {
+  margin: 0;
 }
-.foot-links {
-  display: grid;
-  justify-content: center;
+
+.footer .social-icons {
+  margin-top: 10px;
+}
+
+.footer .social-icons a {
+  margin: 0 10px;
 }
